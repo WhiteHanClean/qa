@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  background: #fdfcf3;
+}
+h1 {
+  font-size: 45px;
+}
+
+/* carts */
+
+.carts {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* record */
+
+.record {
+  margin-right: 40px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.record_create {
+  width: 670px;
+}
+.record_name {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  width: 100%;
+  border: none;
+}
+.record_data {
+  margin-top: 16px;
+}
+.moods {
+  width: 100px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+.data {
+  width: 100px;
+  height: 60px;
+  padding: 5px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 12px;
+  border: none;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.description {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 450px;
+  padding-left: 15px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: none;
+  margin-top: 15px;
+}
+.btn_create {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  background: linear-gradient(135deg, #61b15a 0%, #adce74 100%);
+  border-radius: 12px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  width: 174px;
+  height: 40px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 500px;
+}
+.record_query {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  width: 500px;
+  margin-left: 40px;
+  border: none;
+}
+.record_block {
+  width: 50%;
+}
+.btn_seacrh {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  background: linear-gradient(135deg, #61b15a 0%, #adce74 100%);
+  border-radius: 12px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  width: 90%;
+  height: 40px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 500px;
+}
+.record_serch_block{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  font-size:45px;
+}
+.image_record{
+  width: 150px;
+  height: 150px;
+}

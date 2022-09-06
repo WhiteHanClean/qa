@@ -1,0 +1,52 @@
+.header {
+  padding-left: 40px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 227px;
+  height: 60px;
+}
+
+.header_input {
+  min-width: 480px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: none;
+  padding: 15px;
+}
+
+.moods {
+  width: 100px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.btn_first {
+  padding: 8px 34px;
+  width: 167px;
+  height: 40px;
+  background: #ffce89;
+  border-radius: 12px;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.btn_second {
+  padding: 8px 34px;
+  width: 167px;
+  height: 40px;
+  background: linear-gradient(135deg, #61B15A 0%, #ADCE74 100%);
+  border-radius: 12px;
+  margin-left: 14px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
